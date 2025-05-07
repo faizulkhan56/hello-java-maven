@@ -21,6 +21,14 @@ mvn -v
 ```
 
 ---
+```
+mvn archetype:generate -DgroupId=com.example \
+    -DartifactId=hello-java \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DinteractiveMode=false
+
+cd hello-java
+```
 
 ## 📁 Project Structure
 
