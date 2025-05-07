@@ -21,13 +21,14 @@ mvn -v
 ```
 
 ---
+## 📁 mvn Project scaffolding
 ```
 mvn archetype:generate -DgroupId=com.example \
-    -DartifactId=hello-java \
+    -DartifactId=hello-java-maven \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DinteractiveMode=false
 
-cd hello-java
+cd hello-java-maven
 ```
 
 ## 📁 Project Structure
